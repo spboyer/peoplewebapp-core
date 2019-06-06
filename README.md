@@ -1,3 +1,1 @@
-# 
-# peoplewebapp-core
 # peoplewebapp-core
