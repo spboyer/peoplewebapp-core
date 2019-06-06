@@ -1,0 +1,16 @@
+@page
+@model PeopleModel
+@{
+    ViewData["Title"] = "People page";
+}
+
+<h2>People</h2>
+
+<div>
+  <ul>
+@foreach (var person in Model.People)
+{
+  <li>@person.First @person.Last</li>
+}
+  </ul>
+</div>
