@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "options": {
     "inputs": [
-      "http://13.82.186.64/People.svc"
+      "https://mypeopleservice.azurewebsites.net/People.svc"
     ],
     "namespaceMappings": [
       "*, ServiceReference"
